@@ -7,7 +7,7 @@ public class Main {
         draw("diamond");
 
 
-        greet("Cup-O-Java", 25);
+        greet("Cup-O-Java", 50);
 
         cheer();
         greet("Cup-O-Java");

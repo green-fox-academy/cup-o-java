@@ -3,6 +3,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
+        count(2);
+        draw("diamond");
+        greet("Cup-O-Java", 25);
         count();
         draw("diamonds", 5);
         greet("Cup-O-Java", 50);
@@ -10,9 +13,8 @@ public class Main {
         future();
     }
 
-    public static void count() {
-        int age = 27;
-        System.out.println(age);
+    public static void count(int age) {
+        System.out.println("I am " + age);
     }
 
     public static void draw(String shape, int number) {

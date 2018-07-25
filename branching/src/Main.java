@@ -17,7 +17,8 @@ public class Main {
     }
 
     public static void cheer() {
-        System.out.println("Cup O' Java");
+    	String cheer = "Cup O' Java";
+        System.out.println(cheer);
     }
 
 

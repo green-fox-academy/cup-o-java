@@ -4,7 +4,7 @@ public class Main {
         System.out.println("Hello World!");
 
         count();
-        draw("diamond", 5);
+        draw("diamonds", 5);
         greet("Cup-O-Java", 25);
         cheer("hi");
         future();

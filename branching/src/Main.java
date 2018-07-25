@@ -6,6 +6,13 @@ public class Main {
 
         greet("Adél");
 
+
+    }
+
+    public static void cheer()
+    {
+        System.out.println("Cup O' Java");
+
     }
         public static void greet(String name){
             System.out.println("Hello " + name);

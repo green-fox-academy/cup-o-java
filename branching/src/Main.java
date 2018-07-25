@@ -6,16 +6,13 @@ public class Main {
 
         draw("diamond");
 
-        greet("Adél");
+        greet("Cup-O-Java");
     }
 
     public static void count() {
         int age = 27;
         System.out.println(age);
     }
-
-
-
 
 
 

@@ -2,9 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+
         count();
 
         draw("diamond");
+        cheer();
+        greet("Cup-O-Java");
+        cheer("hi");
     }
 
     public static void count() {
@@ -27,4 +31,12 @@ public class Main {
 		String zodiac = "Scorpio";
     	System.out.println("My zodiac is " + zodiac);
 	}
+
+    public static void cheer(String writeThis) {
+        System.out.println(writeThis);
+    }
+
+    public static void greet(String name) {
+        System.out.println("Hello " + name);
+    }
 }

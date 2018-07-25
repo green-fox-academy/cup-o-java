@@ -9,8 +9,6 @@ public class Main {
         count();
         draw("diamonds", 5);
         greet("Cup-O-Java", 50);
-        cheer();
-        draw("diamond", 5);
         cheer("hi");
         future();
     }
@@ -20,7 +18,7 @@ public class Main {
     }
 
     public static void draw(String shape, int number) {
-        System.out.println("I am going to draw " + number + shape);
+        System.out.println("I am going to draw " + number + " " + shape);
     }
 
     public static void cheer() {

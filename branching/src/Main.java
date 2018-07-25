@@ -6,7 +6,6 @@ public class Main {
         count();
         draw("diamond", 5);
         greet("Cup-O-Java", 25);
-        greet("Cup-O-Java");
         cheer("hi");
         future();
     }

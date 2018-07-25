@@ -5,9 +5,9 @@ public class Main {
 
         count();
         draw("diamond");
-        cheer();
         greet("Cup-O-Java");
         cheer("hi");
+        future();
     }
 
     public static void count() {
@@ -19,9 +19,6 @@ public class Main {
         System.out.println("I am going to draw a " + shape);
     }
 
-    public static void cheer() {
-        System.out.println("Cup O' Java");
-    }
 
     public static void cheer(String writeThis) {
         System.out.println(writeThis);
@@ -29,5 +26,10 @@ public class Main {
 
     public static void greet(String name) {
         System.out.println("Hello " + name);
+    }
+
+    public static void future()
+    {
+        System.out.println("Goat");
     }
 }

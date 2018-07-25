@@ -1,6 +1,7 @@
 public class Cheer {
-    public static void cheer()
+    public static void cheer(String param1, String param2)
     {
-        System.out.println("Cup O' Java");
+        System.out.println(param1);
+        System.out.println(param2);
     }
 }

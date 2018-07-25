@@ -2,5 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        count();
+    }
+
+    public static void count() {
+        int age = 27;
+        System.out.println(age);
     }
 }

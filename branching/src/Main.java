@@ -6,7 +6,7 @@ public class Main {
 
         draw("diamond");
 
-        greet("Cup-O-Java");
+        greet("Cup-O-Java", 25);
     }
 
     public static void count() {
@@ -24,8 +24,8 @@ public class Main {
         System.out.println("Cup O' Java");
 
     }
-        public static void greet(String name){
-            System.out.println("Hello " + name);
+        public static void greet(String name, int number){
+            System.out.println("Hello " + name + "! Hope you will win " + number + " million dollars on the lottery!");
         }
 
 

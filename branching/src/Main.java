@@ -5,14 +5,12 @@ public class Main {
 
         count(2);
         draw("diamond");
-
-
-
         greet("Cup-O-Java", 25);
-
+        count();
+        draw("diamonds", 5);
+        greet("Cup-O-Java", 50);
         cheer();
-
-        greet("Cup-O-Java");
+        draw("diamond", 5);
         cheer("hi");
         future();
     }
@@ -21,10 +19,9 @@ public class Main {
         System.out.println("I am " + age);
     }
 
-    public static void draw(String shape) {
-        System.out.println("I am going to draw a " + shape);
+    public static void draw(String shape, int number) {
+        System.out.println("I am going to draw " + number + shape);
     }
-
 
     public static void cheer() {
         System.out.println("Cup O' Java");

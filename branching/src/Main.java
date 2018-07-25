@@ -4,7 +4,7 @@ public class Main {
         System.out.println("Hello World!");
 
         count();
-        draw("diamond");
+        draw("diamond", 5);
         cheer();
         greet("Cup-O-Java");
         cheer("hi");
@@ -15,8 +15,8 @@ public class Main {
         System.out.println(age);
     }
 
-    public static void draw(String shape) {
-        System.out.println("I am going to draw a " + shape);
+    public static void draw(String shape, int number) {
+        System.out.println("I am going to draw " + number + shape);
     }
 
     public static void cheer() {

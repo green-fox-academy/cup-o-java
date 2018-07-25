@@ -22,9 +22,10 @@ public class Main {
     public static void cheer() {
         System.out.println("Cup O' Java");
     }
-        public static void greet(String name, int number) {
-            System.out.println("Hello " + name + "! Hope you will win " + number + " million dollars on the lottery!");
-        }
+
+    public static void greet(String name, int number) {
+        System.out.println("Hello " + name + "! Hope you will win " + number + " million dollars on the lottery!");
+    }
 
     public static void cheer(String writeThis) {
         System.out.println(writeThis);
@@ -34,8 +35,7 @@ public class Main {
         System.out.println("Hello " + name);
     }
 
-    public static void future()
-    {
+    public static void future() {
         System.out.println("Goat");
     }
 }
